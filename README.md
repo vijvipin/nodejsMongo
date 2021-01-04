@@ -11,9 +11,9 @@ All components are docker-based
 Git Link: https://gitlab.com/nanuchi/techworld-js-docker-demo-app
 
 #### Originally Node.js application in the above app had three components: 
-_ Front End App in Node.js: This would run locally. Node JS to be installed on laptop
-_ Mongo DB - Runs in a container
-_ Mongo DB Express (A front end to access the mongo DB, like SQLDevloper): Runs in a container
+- Front End App in Node.js: This would run locally. Node JS to be installed on laptop
+- Mongo DB - Runs in a container
+- Mongo DB Express (A front end to access the mongo DB, like SQLDevloper): Runs in a container
 
 ### Changes I made: 
 I dockerized the nodejs app as well. To run the app, just download the code and run following command
