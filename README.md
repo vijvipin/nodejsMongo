@@ -29,11 +29,12 @@ Step 1: start mongodb and mongo-express
 
     docker-compose -f docker-compose.yaml up
 
-_Note:This will create following three containers
-CONTAINER ID   IMAGE                                     COMMAND                  CREATED          STATUS          PORTS                      NAMES
-6092f677e0dc   mongo                                     "docker-entrypoint.s…"   37 seconds ago   Up 35 seconds   0.0.0.0:27017->27017/tcp   techworld-js-docker-demo-app-master_mongodb_1
-d414400695c2   mongo-express                             "tini -- /docker-ent…"   38 seconds ago   Up 36 seconds   0.0.0.0:8080->8081/tcp     techworld-js-docker-demo-app-master_mongo-express_1
-a09a0588770e   techworld-js-docker-demo-app-master_app   "docker-entrypoint.s…"   38 seconds ago   Up 36 seconds   0.0.0.0:3000->3000/tcp     mynodeapp
+_Note:This will create following three containers:
+
+- CONTAINER ID   IMAGE                                     COMMAND                  CREATED          STATUS          PORTS                      NAMES
+- 6092f677e0dc   mongo                                     "docker-entrypoint.s…"   37 seconds ago   Up 35 seconds   0.0.0.0:27017->27017/tcp   techworld-js-docker-demo-app-master_mongodb_1
+- d414400695c2   mongo-express                             "tini -- /docker-ent…"   38 seconds ago   Up 36 seconds   0.0.0.0:8080->8081/tcp     techworld-js-docker-demo-app-master_mongo-express_1
+- a09a0588770e   techworld-js-docker-demo-app-master_app   "docker-entrypoint.s…"   38 seconds ago   Up 36 seconds   0.0.0.0:3000->3000/tcp     mynodeapp
 
 Step 2: open mongo-express from browser
 
