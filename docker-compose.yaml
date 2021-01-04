@@ -6,7 +6,7 @@ services:
   # - 3000:3000
   app:
     container_name: mynodeapp
-  restart: always
+    restart: always
     build: .
     ports: 
       - 3000:3000
